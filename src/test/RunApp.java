@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package test;
+import comparingstring.ComparingString;
 
 /**
  *
@@ -14,8 +15,12 @@ public class RunApp {
         String s = new String();
         char[] charArray = new char[7];
         String s1 = "Mariana Barreiros";
-        //pegando tamando
-        System.out.println(s.length());
+        String nome = "mariana";
+        String sobrenome = "Barreiros";
+        
+//     PEGANDO O TAMANHO
+
+       /*System.out.println(s.length());
         System.out.println(charArray.length);;
         System.out.println(s1.length());
         
@@ -33,6 +38,17 @@ public class RunApp {
             System.out.print(s1.charAt(i));
             
         }
-        System.out.println();
+        System.out.println();*/
+        
+//      PARA O PACOTE COMPARINGSTRING....
+
+        ComparingString cs = new ComparingString();
+        
+        System.out.println(cs.isEquals(nome));
+        System.out.println(cs.eIgual(nome));
+        
+        cs.IgnoreCase(nome);
+        cs.endsWith(sobrenome);
+        
     }
 }
