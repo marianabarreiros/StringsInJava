@@ -27,5 +27,12 @@ public class RunApp {
             
         }
         System.out.println();
+        
+        //pagando o index
+        for(int i = 0; i<4; i++){
+            System.out.print(s1.charAt(i));
+            
+        }
+        System.out.println();
     }
 }
