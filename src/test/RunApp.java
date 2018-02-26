@@ -49,6 +49,10 @@ public class RunApp {
         
         cs.IgnoreCase(nome);
         cs.endsWith(sobrenome);
+//      MÉTODO COMPARETO
+        System.out.println(nome.compareTo(sobrenome));
+        System.out.println(sobrenome.compareTo(nome));
+        System.out.println(nome.compareTo(nome));
         
     }
 }

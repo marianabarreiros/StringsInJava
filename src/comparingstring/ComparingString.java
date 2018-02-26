@@ -12,6 +12,7 @@ package comparingstring;
 public class ComparingString {
     String palavra = new String("mariana");
     String meuNome = "Mariana Barreiros";
+    String outroNome = "Vitor";
     
 //    testa se a string contida nos dois objetos são iguais
     public boolean isEquals(String nome){
@@ -46,4 +47,6 @@ public class ComparingString {
             System.out.println("o nome passado não está no final da String");
         }
     }
+    
+    
 }
