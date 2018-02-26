@@ -48,5 +48,23 @@ public class ComparingString {
         }
     }
     
+    public void startWith(String sub){
+        if(meuNome.startsWith(sub)){
+            System.out.println("substring passada está no início da palavra");
+        }
+        else{
+            System.out.println("substring passada não está no início da palavra");
+        }
+    }
+    
+    public void startWith(String sub, int num){
+        if(palavra.startsWith(sub, num)){
+            System.out.println("substring passada está presente na palavra");
+        }
+        else{
+            System.out.println("substring passada não está presente na palavra");
+        }
+    }
+    
     
 }

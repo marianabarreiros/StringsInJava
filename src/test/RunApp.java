@@ -53,6 +53,9 @@ public class RunApp {
         System.out.println(nome.compareTo(sobrenome));
         System.out.println(sobrenome.compareTo(nome));
         System.out.println(nome.compareTo(nome));
+//      MÉTODO STARTWITH
+        cs.startWith(s1);
+        cs.startWith(nome, 2);
         
     }
 }
