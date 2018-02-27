@@ -18,6 +18,7 @@ public class RunApp {
         String s1 = "Mariana Barreiros";
         String nome = "mariana";
         String sobrenome = "Barreiros";
+        String comEspaço = "   Regular: 2016(Mar)21   ";
         
 //     PEGANDO O TAMANHO
 
@@ -71,6 +72,24 @@ public class RunApp {
         System.out.println(s1.substring(0, 7));*/
         
 //      MÉTODO PARA CONCATENAÇÃO
-        System.out.println(nome.concat(sobrenome));
+//        System.out.println(nome.concat(sobrenome));
+
+//        MÉTODO REPLACE
+        System.out.println(s1.replace('a', 'A'));
+
+//        MÉTODO TOlOWERCASE e TOUPPERCASE
+        System.out.println(s1.toLowerCase());
+        System.out.println(s1.toUpperCase());
+        
+//        MÉTODO TRIM
+        System.out.printf("s3 after trim = \"%s\"%n%n", comEspaço.trim());
+        
+//        MÉTODO TOARRAY
+        char[] toArray = s1.toCharArray();
+        for(char character : toArray){
+            System.out.print(character);
+        }
+        System.out.println(" ");
+        
     }
 }
