@@ -34,5 +34,8 @@ public class RunApp {
             System.out.print(character);
         }*/
         
+//       MÉTODO SETCHAR E REVERSE
+        /*string.setCharAt(0, 'o');
+        System.out.println(string.reverse());*/
     }
 }
