@@ -13,6 +13,9 @@ public class RunApp {
     public static void main(String[] Args){
     
         StringBuilder string = new StringBuilder("Olá Mariana, como vai?");
+        String var = "Mariana possui";
+        int num = 25;
+        String var2 = "anos de idade";
 
 //        MÉTODO LENGHT AND CAPACITY
         /*System.out.println(string.length());
@@ -37,5 +40,8 @@ public class RunApp {
 //       MÉTODO SETCHAR E REVERSE
         /*string.setCharAt(0, 'o');
         System.out.println(string.reverse());*/
+        
+//        MÉTODO APPEND
+        System.out.println(string.append(var).append(num).append(var2));
     }
 }
