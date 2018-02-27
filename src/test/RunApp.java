@@ -19,6 +19,7 @@ public class RunApp {
         String nome = "mariana";
         String sobrenome = "Barreiros";
         String comEspaço = "   Regular: 2016(Mar)21   ";
+        Object ref = "oi";
         
 //     PEGANDO O TAMANHO
 
@@ -85,11 +86,14 @@ public class RunApp {
         System.out.printf("s3 after trim = \"%s\"%n%n", comEspaço.trim());
         
 //        MÉTODO TOARRAY
-        char[] toArray = s1.toCharArray();
+        /*char[] toArray = s1.toCharArray();
         for(char character : toArray){
             System.out.print(character);
         }
-        System.out.println(" ");
+        System.out.println(" ");*/
+//        MÉTODO VALUEOF
+        
+           System.out.println(String.valueOf(ref));
         
     }
 }
