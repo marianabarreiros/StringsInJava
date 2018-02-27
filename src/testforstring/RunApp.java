@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package test;
+package testforstring;
 import comparingstring.ComparingString;
 
 
@@ -11,15 +11,15 @@ import comparingstring.ComparingString;
  *
  * @author Win-7
  */
-public class RunApp {
-    public static void main(String[] Args){
+//public class RunApp {
+    /*public static void main(String[] Args){
         String s = new String();
         char[] charArray = new char[7];
         String s1 = "Mariana Barreiros";
         String nome = "mariana";
         String sobrenome = "Barreiros";
         String comEspaço = "   Regular: 2016(Mar)21   ";
-        Object ref = "oi";
+        Object ref = "oi";*/
         
 //     PEGANDO O TAMANHO
 
@@ -76,14 +76,14 @@ public class RunApp {
 //        System.out.println(nome.concat(sobrenome));
 
 //        MÉTODO REPLACE
-        System.out.println(s1.replace('a', 'A'));
+//        System.out.println(s1.replace('a', 'A'));
 
 //        MÉTODO TOlOWERCASE e TOUPPERCASE
-        System.out.println(s1.toLowerCase());
-        System.out.println(s1.toUpperCase());
+        /*System.out.println(s1.toLowerCase());
+        System.out.println(s1.toUpperCase());*/
         
 //        MÉTODO TRIM
-        System.out.printf("s3 after trim = \"%s\"%n%n", comEspaço.trim());
+//        System.out.printf("s3 after trim = \"%s\"%n%n", comEspaço.trim());
         
 //        MÉTODO TOARRAY
         /*char[] toArray = s1.toCharArray();
@@ -93,7 +93,7 @@ public class RunApp {
         System.out.println(" ");*/
 //        MÉTODO VALUEOF
         
-           System.out.println(String.valueOf(ref));
+//           System.out.println(String.valueOf(ref));
         
-    }
-}
+//    }
+//}
