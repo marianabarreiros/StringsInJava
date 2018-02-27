@@ -67,8 +67,10 @@ public class RunApp {
          System.out.println(s1.lastIndexOf('a', 4));*/
          
 //      MÉTODO SUBSTRING
-        System.out.println(s1.substring(2));
-        System.out.println(s1.substring(0, 7));
+        /*System.out.println(s1.substring(2));
+        System.out.println(s1.substring(0, 7));*/
         
+//      MÉTODO PARA CONCATENAÇÃO
+        System.out.println(nome.concat(sobrenome));
     }
 }
