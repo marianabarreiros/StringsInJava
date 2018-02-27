@@ -6,6 +6,7 @@
 package test;
 import comparingstring.ComparingString;
 
+
 /**
  *
  * @author Win-7
@@ -41,21 +42,29 @@ public class RunApp {
         System.out.println();*/
         
 //      PARA O PACOTE COMPARINGSTRING....
-
-        ComparingString cs = new ComparingString();
+        /*ComparingString cs = new ComparingString();
         
         System.out.println(cs.isEquals(nome));
         System.out.println(cs.eIgual(nome));
         
         cs.IgnoreCase(nome);
         cs.endsWith(sobrenome);
+
 //      MÉTODO COMPARETO
         System.out.println(nome.compareTo(sobrenome));
         System.out.println(sobrenome.compareTo(nome));
         System.out.println(nome.compareTo(nome));
+
 //      MÉTODO STARTWITH
         cs.startWith(s1);
-        cs.startWith(nome, 2);
+        cs.startWith(nome, 2);*/
+        
+//       PARA OS MÉTODOS INDEXOF E LASTINDEXOF
+//         IndexOf i = new IndexOf();
+         System.out.println(s1.indexOf('a'));
+         System.out.println(s1.indexOf('a', 3));
+         System.out.println(s1.lastIndexOf('a'));
+         System.out.println(s1.lastIndexOf('a', 4));
         
     }
 }
