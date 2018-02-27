@@ -15,15 +15,24 @@ public class RunApp {
         StringBuilder string = new StringBuilder("Olá Mariana, como vai?");
 
 //        MÉTODO LENGHT AND CAPACITY
-        System.out.println(string.length());
+        /*System.out.println(string.length());
         System.out.println(string.capacity()); /*quem decide a capacidade?*/
-        System.out.println(string.toString());
+//        System.out.println(string.toString());
 //        MÉTODO PARA MUDAR A CAPACIDADE E A O TAMANHO
-        string.setLength(20);
+        /*string.setLength(20);
         string.ensureCapacity(55);
         
         System.out.println(string.length());
         System.out.println(string.capacity()); 
-        System.out.println(string.toString());
+        System.out.println(string.toString());*/
+        
+//        MÉTODO CHARTAT E GETCHARS
+       /* System.out.println(string.charAt(4));
+        char[] charArray = new char[string.length()];
+        string.getChars(0, 20, charArray, 0);
+        for(char character : charArray){
+            System.out.print(character);
+        }*/
+        
     }
 }
