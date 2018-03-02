@@ -5,6 +5,10 @@
  */
 package testforstringbuilder;
 
+import java.time.LocalDate;
+import java.time.Month;
+import java.util.StringJoiner;
+
 /**
  *
  * @author Win-7
@@ -16,6 +20,7 @@ public class RunApp {
         String var = "Mariana possui";
         int num = 25;
         String var2 = "anos de idade";
+//        string.r
 
 //        MÉTODO LENGHT AND CAPACITY
         /*System.out.println(string.length());
@@ -42,6 +47,15 @@ public class RunApp {
         System.out.println(string.reverse());*/
         
 //        MÉTODO APPEND
-        System.out.println(string.append(var).append(num).append(var2));
+//        System.out.println(string.append(var).append(num).append(var2));
+        
+//        MÉTODO 
+        StringJoiner sj = new StringJoiner(":", "[", "]");
+        sj.add("George").add("Sally").add("Fred");
+        String desiredString = sj.toString();
+        System.out.println(desiredString);
+        
+        LocalDate comMes = LocalDate.of(2014 , Month.DECEMBER , 9);
+        System.out.println("Data com mes enum: "+comMes);
     }
 }
